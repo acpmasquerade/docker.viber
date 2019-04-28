@@ -1,11 +1,13 @@
 # docker.viber
-Run Viber on Docker (Tested on Ubuntu 19.04)
+Run Viber on Docker
+Successfully tested on following machines
+- Ubuntu 19.04
+- 
 
 # With Docker Compose
-## build 
+__build __
 ```docker-compose build```
-
-## run
+__run__
 ```docker-compose up```
 
 # Without docker compose
@@ -13,3 +15,7 @@ Run Viber on Docker (Tested on Ubuntu 19.04)
 $ docker build . -t viber
 $ docker run  -v /dev/snd:/dev/snd -v /tmp/.X11-unix:/tmp/.X11-unix --privileged  -e DISPLAY=$DISPLAY viber:latest
 ```
+
+
+# Todo
+- mount host disk volume to retain viber sessions and data  
