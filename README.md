@@ -6,7 +6,8 @@ Successfully tested on following machines
 - 
 
 # With Docker Compose
-__build __
+
+__build__
 
 ```docker-compose build```
 
