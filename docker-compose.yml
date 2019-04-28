@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  viber:
+    build: .
+    image: viber
+    environment:
+            - DISPLAY
+    volumes:
+            - "/tmp/.X11-unix:/tmp/.X11-unix"
+    devices:
+            - "/dev/snd:/dev/snd"
+    privileged: true
+
+
+
