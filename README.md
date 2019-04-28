@@ -7,13 +7,10 @@ Successfully tested on following machines
 
 # With Docker Compose
 
-__build__
-
-```docker-compose build```
-
-__run__
-
-```docker-compose up```
+```
+docker-compose build
+docker-compose up
+```
 
 # Without docker compose
 ```
