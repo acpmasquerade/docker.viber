@@ -8,6 +8,8 @@ services:
             - DISPLAY
     volumes:
             - "/tmp/.X11-unix:/tmp/.X11-unix"
+            - "./viber9779800000000:/home/gui/viber977980000000"
+            - "./ViberDownloads:/home/gui/Documents/ViberDownloads"
     devices:
             - "/dev/snd:/dev/snd"
     privileged: true
