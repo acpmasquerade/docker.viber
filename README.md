@@ -24,6 +24,7 @@ docker run  \
 ```
 
 # Viber Session and Downloads
-Two volume directories are mounted from the host local folder
+Two volume directories are mounted from the host machine
+
 - ViberDownloads to /home/gui/Documents/ViberDownloads
 - viberSomeNumberWithCountryCode to /home/gui/viberSomeNumberWithCountryCode (eg. viber977980000000)
