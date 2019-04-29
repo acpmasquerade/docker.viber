@@ -23,5 +23,7 @@ docker run  \
        viber:latest
 ```
 
-# Todo
-- mount host disk volume to retain viber sessions and data  
+# Viber Session and Downloads
+Two volume directories are mounted from the host local folder
+- ViberDownloads to /home/gui/Documents/ViberDownloads
+- viber977<yournumber> to /home/gui/viber977<yournumber> (eg. viber977980000000)
